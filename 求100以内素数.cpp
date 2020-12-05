@@ -1,5 +1,5 @@
 #include<stdio.h>
-
+/*打印输出1-100以内的素数*/
 
 int main(){
 	int i,j,temp=1;
@@ -15,10 +15,6 @@ int main(){
 			printf("%d\n",i);
 		}
 	}
-	
-	
-	
-	
 	return 0;
 }
 
