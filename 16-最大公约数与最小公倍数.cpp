@@ -7,7 +7,6 @@ int gongyue(int m,int n){
 		m=n;
 		n=s;
 	}
-	printf("最大公约数为:%d", n);
 	return n;
 }
 
@@ -16,6 +15,7 @@ int main(){
 	scanf("%d%d", &m,&n);
 	num = gongyue(m,n);
 	gongbei = m*n/num;
+	printf("最大公约数为:%d\n", num);
 	printf("最小公倍数为:%d", gongbei);
 	return 0;
 } 
